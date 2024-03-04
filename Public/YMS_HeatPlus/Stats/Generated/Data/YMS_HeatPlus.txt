@@ -1,0 +1,23 @@
+new entry "MAG_FIRE_HEAT"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_FIRE_HEAT"
+data "RemoveEvents" "OnTurn;OnCombatEnded"
+
+new entry "MAG_FIRE_HEAT_CONVERGENCE"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_FIRE_HEAT_CONVERGENCE"
+data "RemoveEvents" "OnDamage;OnCombatEnded"
+
+new entry "MAG_FIRE_HEAT_ONCE_TECHNICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_FIRE_HEAT_ONCE_TECHNICAL"
+data "RemoveEvents" "OnCombatEnded"
+
+new entry "MAG_FIRE_HEAT_DURATION_TECHNICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_FIRE_HEAT_DURATION_TECHNICAL"
+data "RemoveEvents" "OnCombatEnded"
